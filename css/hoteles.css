@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+  
+}
+h1{
+    text-align:center;
+    color:white;
+    padding-top: 40px;
+}
+.main-header {
+    background: url(https://media.gettyimages.com/photos/rear-view-of-woman-sitting-on-rock-at-machu-picchu-picture-id688074729?k=20&m=688074729&s=612x612&w=0&h=68taKNpp3csOtDKuABV6v6-AlVLnbTHgkKCqKp6gHVU=);
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    height: 105vh; 
+    position: relative;
+    background-color:rgb(40,40,40);
+    background-blend-mode:soft-light;  
+    background-attachment:fixed;  
+}
+a{
+    text-decoration:none ;
+}
+.main-nav{
+    display: flex;
+    background-color: rgba(0,0,0,0.6); 
+}
+.logo{
+    
+    display :flex;
+    justify-content:center;
+    align-items: center;
+    margin-left:  100px; 
+    padding: 20px 50px;
+    font-size: 1.3rem;
+    color:aliceblue;
+}
+ul{
+    
+    display:flex;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+ul a {
+    display: inline-block;
+    padding: 20px 50px;
+    margin-right: 100px;
+    font-size: 1.3rem;
+    color:white;
+}
+a:hover {
+    background-color:rgb(69, 40, 180);
+}
+/*cuando es con un punto es una clase*/
+.container{
+    
+    padding:100px 0px 0px 200px;
+    width:100%;/*ancho de 100%*/
+    
+    display: flex;/*para qu sea una caja flexible*/
+    max-width: 1700px;/*maximo de ancho*/
+    
+}
+.card{
+    width: 100%;
+    margin:20px;/*establecera la distancia de los 4 lados*/
+    border-radius: 6px;
+    overflow:hidden;/*para que todo elemento que este fuera de la etiqueta card se oculten */
+    background-color: white;
+    box-shadow:0px 1px 10px rgba(0,0,0,0.5) ;
+    transition: all 400ms ease;/*para queel efecto sea suave */
+}
+.card:hover{
+    box-shadow:0px 1px 10px rgba (0,0,0,0.5);
+    transform: translatey(-3%);
+}
+.card img{
+    width:100%;
+    height:310px;
+    
+
+
+}
+.card .contenido{
+    padding:30px;/*para que el contenbido se alarge */
+    text-align: center;
+
+}
+.card .contenido .a {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    color: white;
+    margin-top:20px;
+    padding: 10px;
+    transition: all 400ms ease;  
+}
+.card .contenido a:hover{
+color:#fff;
+}
+footer{
+    background-color: #111;
+    height: auto;
+    width: auto;
+    padding-top:40px ;
+    color:#fff;
+}
+.footer-content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight:400;
+    text-transform:capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin: 2rem 0 2rem;
+}
+.socials li{
+    margin:0 10px;
+}
+.footer-bottom{
+    justify-content: center;
+    text-align: center;
+}
